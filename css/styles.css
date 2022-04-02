@@ -1,0 +1,159 @@
+:root {
+  /* === colors === */
+  --background-color-main: #fff;
+  --background-color-dark: #2f303a;
+  --background-color-light: #f5f4fa;
+  --color-font-main: #757575;
+  --color-font-dark: #212121;
+  --color-font-light: #fff;
+  --color-font-logo: #000;
+  --color-accent: #2196f3;
+  --color-hero-button: #188ce8;
+  --color-footer-contacts: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-font-main);
+  background-color: var(--background-color-main);
+}
+
+/* === components === */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:active,
+.link:hover,
+.link:focus {
+  color: var(--color-accent);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--color-accent);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--color-font-dark);
+}
+
+/* === Верхняя линия === */
+.header-logo {
+  color: var(--color-font-logo);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-font-dark);
+}
+
+.header-contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* === Шапка === */
+.hero {
+  background-color: var(--background-color-dark);
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-font-light);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--color-font-light);
+  background-color: var(--color-hero-button);
+  cursor: pointer;
+}
+
+/* === Особенности === */
+.hidden-section-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-font-light);
+}
+
+.peculiar-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-font-dark);
+}
+
+/* === Наша команда === */
+.team {
+  background-color: var(--background-color-light);
+}
+
+.team-member-card {
+  background-color: var(--background-color-main);
+  text-align: center;
+}
+
+.team-member-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-font-dark);
+}
+
+.team-member-job {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* === Подвал === */
+.footer {
+  background-color: var(--background-color-dark);
+}
+
+.footer-logo {
+  color: var(--color-font-light);
+}
+
+.address {
+  font-style: normal;
+}
+
+.map-address {
+  color: var(--color-font-light);
+}
+
+.footer-contact {
+  color: var(--color-footer-contacts);
+}
