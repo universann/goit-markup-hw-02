@@ -66,6 +66,10 @@ body {
   color: var(--color-font-dark);
 }
 
+.nav-link.current {
+  color: var(--color-accent);
+}
+
 .header-contact {
   font-weight: 500;
   line-height: 1.14;
@@ -89,6 +93,7 @@ body {
 }
 
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -156,4 +161,36 @@ body {
 
 .footer-contact {
   color: var(--color-footer-contacts);
+}
+
+/* ===== Портфолио ===== */
+.portfolio-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--color-font-dark);
+  background-color: var(--background-color-light);
+  cursor: pointer;
+}
+
+.portfolio-button:active,
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--color-font-light);
+  background-color: var(--color-accent);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-font-dark);
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 30px;
 }
